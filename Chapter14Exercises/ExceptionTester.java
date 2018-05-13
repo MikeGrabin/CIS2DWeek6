@@ -16,7 +16,7 @@ public class ExceptionTester {
         } //Return the catch exceptions
           //Print each method
         catch (FileNotFoundException e) {
-            System.err.println(e.toString());
+            System.err.println(e.getMessage());
         }
     }
 
